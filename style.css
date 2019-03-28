@@ -1,0 +1,317 @@
+body{
+	margin:0;
+}
+.containt{
+	width:70%;
+	margin:auto;
+}
+/*header start*/
+
+.header-part{
+	background-color: #3B5998;
+	padding:20px 0px;
+}
+.header-part .logo{
+	width:30%;
+	float:left;
+	
+}
+.header-part .login-box{
+	width:70%;
+	overflow: hidden;
+
+
+}
+.header-part .login-box .l-box{
+	float:right;
+
+	
+}
+.header-part .login-box label{
+	font-family: tahoma;
+	color:#ffff;
+	display:block;
+	font-size:12px;
+	
+
+}
+.header-part .login-box input{
+	display:block;
+	border:1px solid #1D2A5B;
+}
+
+.header-part .login-box .username-area{
+	float: left;
+}
+.header-part .login-box .password-area{
+	overflow: hidden;
+	float:left;
+	margin-left:15px;
+
+}
+.header-part .login-box .password-area a{
+	font-family: tahoma;
+	text-decoration: none;
+	color:#8CB4C4;
+	font-size:12px;
+
+}
+.header-part .login-box .password-area a:hover{
+	text-decoration: underline;
+}
+.header-part .login-box .submit-area{
+	overflow: hidden;
+	float:left;
+	margin-left:15px;
+	margin-top:15px;
+}
+.header-part .login-box .submit-area input {
+	color: #FFFF;
+	background-color: #4267B2;
+	font-weight: bold;
+	border: 1px solid #29487D;
+	padding: 2px 5px;
+}
+
+/*header end*/
+/*content start*/
+.content{
+	background:linear-gradient(#FFFFFF,#D3D8E8);
+	font-family: tahoma,arial;
+}
+
+.containt .left-side {
+	width: 48%;
+	float: left;
+	margin-right: 10%;
+	margin-top: 50px;
+	background: url('images/GwFs3_KxNjS.png') no-repeat;
+	background-position: -12px 65px;
+	min-height: 254px;
+	background-size: 100% auto;
+}
+.containt .left-side .text-area h2 {
+	font-size: 18px;
+	margin-left: 15px;
+	color:#0E385F;
+	width:100% auto;
+}
+
+
+.containt .right-side{
+	width:42%;
+	overflow: hidden;
+	padding-top:30px;
+}
+.containt .right-side h1{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size:40px;
+	color:#333333;
+	margin:0; 
+}
+.containt .right-side h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #1D2129;
+	font-size: 18px;
+	margin: 0;
+}
+.containt .right-side form{
+	margin-top:20px;
+}
+.containt .right-side form input[type="text"],
+ .containt .right-side form input[type="password"] {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	border: 1px solid #BDC7D8;
+	box-sizing: border-box;
+	font-size: 18px;
+	padding: 10px 10px;
+	border-radius: 5px;
+}
+.containt .right-side form input[type="text"]:first-child{
+	width:49%;
+	float:left;
+	margin-right:2%;
+}
+.containt .right-side form input[type="text"]:nth-child(2){
+	width:49%;
+	overflow: hidden;
+}
+.containt .right-side .birth{
+	margin-top: 5px;
+	overflow: hidden;
+	margin-bottom: 20px;
+
+
+}
+.containt .right-side .birth select{
+	float:left;
+	overflow: hidden;
+	padding:5px;
+	border: 1px solid #BDC7D8;
+}
+.containt .right-side .birth select:last-of-type{
+	margin-right: 5px;
+}
+.containt .right-side .birth a{
+	font-size: 11px;
+	text-decoration: none;
+	color:#3B5998;
+	line-height: 14px;
+	display: block;
+}
+.containt .right-side .birth a:hover{
+	text-decoration: underline;
+}
+.containt .right-side form label{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #1D2129;
+	font-size: 18px;
+}
+.containt .right-side p{
+	color:#777777;
+	font-size: 11px;
+} 
+.containt .right-side p a{
+	text-decoration: none;
+	color:#3B5998;
+}
+.containt .right-side p a:hover{
+	text-decoration: underline;
+}
+.containt .right-side form input[type="submit"] {
+	color: white;
+	font-size: 20px;
+	background-color: #588A44;
+	border: 1px solid #2C5115;
+	padding: 5px 27px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.containt .right-side .page{
+	font-weight: bold;
+	font-size: 12px;
+}
+.containt .right-side .page a{
+	font-weight: bold;
+	font-size: 12px;
+}
+
+
+/*content end*/
+/*footer start*/
+.footer-top{
+	overflow: hidden;
+	padding:10px 0px;
+}
+.footer-bottom{
+	overflow: hidden;
+
+}
+.footer-top ul,.footer-bottom ul{
+	list-style-type: none;
+	padding:0;
+	margin:0;
+}
+.footer-bottom ul{
+}
+.footer-top ul li,.footer-bottom ul li{
+	float:left;
+	margin-right:10px;
+}
+.footer-bottom ul li{
+	margin-right: 20px;
+
+}
+.footer-top ul li a,.footer-bottom ul li a{
+	text-decoration: none;
+	font-family: tahoma;
+	color:#365899;
+	font-size: 12px;
+}
+.footer-top ul li a:hover,.footer-bottom ul li a:hover{
+	text-decoration:underline;
+}
+hr{
+	border-left:0;
+	border-bottom:0;
+	border-right:0;
+	border-top:1px solid #DDDFE2;
+	margin-top:0;
+	
+}
+.copyright{
+	font-family: tahoma;
+	font-size: 12px;
+	color:#737373;
+
+}
+/*footer end*/
+@media all and (max-width: 768px){
+	.header-part .logo {
+		float:none;
+		width:100%;
+		text-align: center;
+		margin-bottom:20px;
+
+	}
+	.header-part .login-box{
+		width:100%;
+	}
+	.header-part .login-box .l-box {
+		width:375px;
+		margin:auto;
+		float:none;
+	}
+	.containt .left-side {
+	background-position: 5px 95px;
+	}
+	.containt .right-side .birth select{
+		float:none;
+		margin-bottom: 5px;
+	}
+
+}
+@media all and (max-width:400px){
+	.header-part .login-box .username-area{
+		float: none;
+	}
+	.header-part .login-box .password-area{
+		
+		float:none;
+		margin-left:0px;
+
+		
+
+	}
+	.header-part .login-box .submit-area{
+		float:none;
+		margin-left:0;
+		margin-top:0;
+		margin-bottom:5px;
+	}
+	.header-part .login-box input[type="text"] ,.login-box input[type="password"]{
+		width:100%;
+	}
+	.containt .left-side {
+	width: 100%;
+	float: none;
+	background-position: 5px 90px;
+	}
+	.containt .right-side{
+		width:100%;
+	}
+}
+@media all and (max-width:300px){
+	.header-part .login-box input[type="text"] ,.login-box input[type="password"]{
+		width:auto;
+	}
+	.containt .right-side form input[type="text"],
+ 	.containt .right-side form input[type="password"]{
+ 		font-size: 15px;	
+	}
+}
